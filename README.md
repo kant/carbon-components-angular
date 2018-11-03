@@ -61,12 +61,12 @@ _Finally_ we can run `npm start` and start building out our application!
 
 #### Pull request guidelines
 - **Keep changes small and focused.**
-- If you create a pull request and then realize it is not ready to be merged, prepend "WIP: " (For example,  WIP: Fixed text overflow in accordion headers.) and assign a WIP label.
+- If you create a pull request and then realize it is not ready to be merged, prepend "WIP: " (For example,  WIP: Fixed text overflow in accordion headers) and assign a WIP label.
 - Include a description of changes
   - attach a screenshot (or a gif!) for design reference if needed
   - reference the related issue
   	- "closes #123" or "fixes #123" will close issue #123 once the PR is merged
-  	- "issue #123" just references the issue. Only use this if you definitely need the issue to remain open.
+  	- "issue #123" just references the issue. Only use this if you definitely need the issue to remain open
   - @mention any specific other developers that need to be aware of the changes
 - add the "needs review" label along with any other relevant labels
 - [link to code review checklist goes here](#)
@@ -88,7 +88,7 @@ _Finally_ we can run `npm start` and start building out our application!
 
 #### npm commands
 To keep our build dependencies local we use npm scripts to run our webpack, gulp, and general build tasks. You should never install webpack or gulp globally as that will likely conflict with our version. You should never need to modify the build process to add a component or story.
-- `npm run storybook` to run storybook (port 6006)
+- `npm run storybook` to run storybook (port `6006`)
 - `npm run build` to generate the dist
 - `docs:build` to build documentation
 - `docs:server` to build and run the documentation server
